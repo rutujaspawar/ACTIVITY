@@ -1,0 +1,255 @@
+[9:09 AM, 6/19/2021] Rutti: <!DOCTYPE html>
+<html lang="en">
+<head>
+    <body>
+       <title>our website</title>
+    <meta name="viewport" content="width-device-width">
+   
+     <link href="css/style.css" rel="stylesheet" type="css/style.css">
+     <link rel="stylesheet" href="style.css"/>
+      <link rel="stylesheet" href="css/style.css">
+      <link rel="stylesheet" href="style.css" />
+    
+<div id="wrapper">
+  <header>
+    <div class="flex">
+      <div class="logo">
+        <a href="#">TOUR  AND TRAVEL AGENCY</span></a>
+      </div>
+      <nav>
+        <button id="nav-toggle" class="hamburger-menu">
+          <span class="strip"></span>
+          <span class="strip"></span>
+          <span class="strip"></span>
+        </button>
+        <ul id="nav-menu-container">
+          <li><a …
+[9:09 AM, 6/19/2021] Rutti: /* global style rules */
+#wrapper {
+    font-family: 'times new roman', 'arial';
+}
+h1, h2, h3 {
+    text-align: center;
+    font-weight: 300;
+    margin: 0;
+    text-transform: uppercase;
+}
+h1:hover {
+    font-size: 1.4em;
+    color: #000;
+}
+h2:hover {
+    font-size: 1.4em;
+    color: #000;
+}
+h3: hover{
+    font-size: 1.4em;
+    color: #000;
+}
+a{
+  text-decoration: none;
+}
+a:hover {
+    text-decoration:blink;
+}
+.flex {
+    display: flex;
+    max-width: 1150px;
+    margin: 0 auto;
+}
+/* start: header styles */
+header {
+    background-color: #0C3C60;
+    padding: 20px;
+    position: relative;
+}
+header .flex {
+    display: flex;
+    justify-content: space-between;
+}
+.logo a {
+    color: #fff;
+    text-transform: uppercase;
+}
+.logo a:hover {
+    text-decoration: none;
+}
+.logo span {
+    color: #2babd9;
+    cursor: pointer;
+}
+.hamburger-menu {
+    background-color: transparent;
+    border: 1px solid #fff;
+    padding: 3px 5px;
+    width: 30px;
+    cursor: pointer;
+    display: none;
+}
+.hamburger-menu .strip {
+    display: block;
+    height: 1px;
+    background-color: #fff;
+    margin: 4px 0;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+nav ul li {
+    display: inline-block;
+    font-size: 0.75em;
+    margin: 0 12px;
+}
+nav ul li a {
+    color: #fff;
+}
+/* end: header styles */
+/* start: hero section styles */
+.hero-image {
+    position: relative;
+    max-height: 650px;
+    overflow: hidden;
+    margin-bottom: 90px;
+}
+.hero-image img {
+    width: 100%;
+}
+.hero-marketing-bar {
+    position: absolute;
+    z-index: 2;
+    background-color: rgba(255, 255, 255, 0.65);
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 0;
+}
+.hero-marketing-bar h1,
+.hero-marketing-bar h3 {
+    color: #0e0404;
+}
+.hero-marketing-bar h3 {
+    margin-bottom: 10px;
+}
+/* end: hero section styles */
+/* start: marketing boxes styles */
+.marketing-boxes {
+    margin-bottom: 90px;
+}
+.marketing-boxes .flex {
+    justify-content: space-between;
+}
+.box {
+    background-color: #0C3C60;
+    padding: 40px;
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+}
+.box2 {
+    margin: 0 40px;
+}
+.box h2 {
+    margin-bottom: 40px;
+    color: #CBE0EB;
+}
+.box p {
+    line-height: 1.5em;
+    margin-bottom: 40px;
+}
+.box button:hover {
+    background-color: #6EA4CA;
+    padding: 8px 30px;
+    color: #fff;
+    font-size: 1.25em;
+}
+/* end: marketing boxes styles */
+/* start: about us styles */
+.about-us {
+    background-color: #D1E0EB;
+    color: #0C3C60;
+    text-align: center;
+    padding: 75px 10px 60px;
+}
+.about-us h1 {
+    margin-bottom: 50px;
+}
+.about-us p {
+    max-width: 640px;
+    font-size: 0.85em;
+    margin: 0 auto 100px;
+    line-height: 1.5em;
+}
+.about-us button:hover {
+    background-color: #0C3C60;
+    color: #fff;
+    font-size: 1rem;
+    padding: 8px 30px;
+}
+/* end: about us styles */
+/* start: contact us styles */
+.contact-us {
+    background-color: #bd84f0;
+    padding: 75px 0 60px;
+}
+.contact-us h1 {
+    color: #fff;
+    margin-bottom: 50px;
+}
+.contact-us .flex {
+    justify-content: space-between;
+    max-width: 800px;
+}
+.map {
+    width: 400px;
+    height: 400px;  
+}
+.contact-form {
+    width: 400px;
+    padding: 0 10px 0 50px;
+}
+.contact-form address {
+    color: #fff;
+    font-size: 1.05em;
+    text-align: center;
+    font-style: normal;
+    font-weight: 300;
+    margin-bottom: 40px;
+}
+.contact-form input,
+.contact-form textarea {
+    display: block;
+    margin: 0 0 20px;
+    padding: 8px 12px;
+    color: #597DB5;
+    font-size: 16px;
+    width: 100%;
+    box-sizing: border-box;
+}
+.contact-form textarea {
+    resize: none;
+    height: 110px;
+}
+.contact-form button:hover {
+    background-color: #4a0a5a;
+    color: #fff;
+   align-self: center;
+    padding: 8px 40px;
+    font-size: 1em;
+}
+input::placeholder {
+    color: #597DB5;
+}
+/* end: contact us styles */
+/* start: footer styles */
+footer {
+    background-color: #0C3C60;
+    padding: 75px 0 60px;
+    color: #fff;
+}
+footer .flex {
+    max-width: 900px;
+    justify-content: space-between;
+}
+/* end: footer styles */
